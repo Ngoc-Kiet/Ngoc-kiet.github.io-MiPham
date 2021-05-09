@@ -1,6 +1,6 @@
 module.exports = {
   app: {
-    port: 3000
+   port = normalizePort(process.env.PORT || '3000')
   },
   database: {
     connection: "mongodb+srv://ngockiet:ngockiet123123@cluster0.yle50.mongodb.net/shopping?retryWrites=true&w=majority",
